@@ -5,14 +5,14 @@ export interface OctoError {
     message: string;
 
     /**
-     * Status code, provided by the server.
+     * Status code, as provided by the server.
      * Will be `undefined` when a network error occured or no response from the server was received.
      */
     code?: number;
 
     /**
-     * Response, provided by the server.
-     *  Will be `undefined` when a network error occured or no response from the server was received.
+     * Response, as provided by the server.
+     * Will be `undefined` when a network error occured or no response from the server was received.
      */
     response?: string;
 
