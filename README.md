@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://octofetch.maartenvn.be" target="_blank">
-    <img alt="OctoFetch Logo" width="200" src="./docs/assets/img/logo.svg">
+    <img alt="OctoFetch Logo" width="200" src="./docs/.vuepress/public/assets/img/logo.svg">
   </a>
 </p>
 
@@ -45,8 +45,9 @@ octofetch()
     .get("https://localhost:5000/api/users/:id")
     .path("id", userId)
     .header("Token", "Bearer my-token-here")
-    .then((data) => console.log(data))
-    .catch((error) => console.log(error.code));
+    .fetch()
+    .then(data => console.log(data))
+    .catch(error => console.log(error.code));
 ```
 
 ### Typescript
@@ -54,7 +55,7 @@ octofetch()
 ```typescript
 import octofetch from "octofetch";
 
-const users: Users[] = await octofetch().get(
-    "https://localhost:5000/api/users"
-);
+const users = await octofetch<User[]>()
+    .get("https://localhost:5000/api/users")
+    .fetch();
 ```

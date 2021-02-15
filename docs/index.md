@@ -5,8 +5,6 @@ heroImage: /assets/img/logo.svg
 tagline: Javascript & Typescript library for fetching data from APIs with zero dependencies.
 actionText: Get Started →
 actionLink: /guide/installation
-altActionText: Learn more
-altActionLink: /about
 features:
     - title: ⚡️ Powerfull & easy to use
       details: OctoFetch will make doing requests super easy, stripping down on boilerplate code.

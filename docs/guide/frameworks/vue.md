@@ -88,9 +88,9 @@ export default {
 
         onMounted(() => {
             octofetch().get("https://myapi/me")
-                .then(data => (this.user = data))
-                .catch(error => (this.error = error))
-                .finally(() => (this.loading = false))
+                .then(data => (user.value = data))
+                .catch(error => (error.value = error))
+                .finally(() => (loading.value = false))
         });
 
         return {

@@ -21,9 +21,7 @@ If you are using native ES Modules, there is an ESM compatible build:
 There is a special bundle available for legacy browsers (such as IE11). This bundle includes a polyfill for all includes ES6 features (such as `fetch`). This bundle is **much larger than the modern bundle**, so think carefully before using this bundle.
 
 ```html
-<script type="module">
-    import octofetch from "https://cdn.jsdelivr.net/npm/octofetch/dist/octofetch.legacy.js";
-</script>
+<script src="https://cdn.jsdelivr.net/npm/octofetch/dist/octofetch.legacy.js"></script>
 ```
 
 ::: warning

@@ -121,7 +121,7 @@ Will return a promise that:
 
 -   will resolve with the serialized object (passed through the matched transformer)
 -   will resolve when a 2XX status code is provided
--   will reject when a 4XX-5XX or network error will occur
+-   will reject when a 4XX-5XX or network error has occurred
 
 This is the same behaviour as Axios.
 
@@ -132,4 +132,4 @@ Fetch the data with the constructed request options.
 Will return a promise with the native result from native-fetch:
 
 -   will resolve when a response is received from the server (2XX, 4XX, 5XX, ...)
--   will reject when an network error occurs
+-   will reject when an network error has occurred
