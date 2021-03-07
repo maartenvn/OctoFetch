@@ -12,6 +12,30 @@
 Javascript/Typescript library for fetching data from APIs with zero dependencies.
 </p>
 
+<p align="center">
+  <a href="https://github.com/maartenvn/OctoFetch/actions/workflows/test.yml">
+    <img src="https://github.com/maartenvn/OctoFetch/actions/workflows/test.yml/badge.svg" alt="CI badge">
+  </a>
+  
+  <a href="https://github.com/maartenvn/OctoFetch/actions/workflows/docs.yml">
+    <img src="https://github.com/maartenvn/OctoFetch/actions/workflows/docs.yml/badge.svg" alt="CI badge">
+  </a>
+
+  <a href="https://github.com/maartenvn/OctoFetch/actions/workflows/release.yml">
+    <img src="https://github.com/maartenvn/OctoFetch/actions/workflows/release.yml/badge.svg" alt="CI badge">
+  </a>
+
+  <br />
+
+  <a href="https://www.npmjs.com/package/octofetch">
+    <img src="https://img.shields.io/npm/dm/octofetch" alt="NPM Downloads">
+  </a>
+
+  <a href="https://www.npmjs.com/package/octofetch">
+    <img src="https://img.shields.io/npm/v/octofetch" alt="NPM Version">
+  </a>
+</p>
+
 ## [Documentation](https://octofetch.js.org/)
 
 You can find the full documentation here: [Documentation](https://octofetch.js.org/)
