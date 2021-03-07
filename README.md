@@ -34,6 +34,10 @@ Javascript/Typescript library for fetching data from APIs with zero dependencies
   <a href="https://www.npmjs.com/package/octofetch">
     <img src="https://img.shields.io/npm/v/octofetch" alt="NPM Version">
   </a>
+
+  <a href="https://bundlephobia.com/result?p=octofetch">
+    <img src="https://img.shields.io/bundlephobia/minzip/octofetch" alt="Bundle Size">
+  </a>
 </p>
 
 ## [Documentation](https://octofetch.js.org/)
