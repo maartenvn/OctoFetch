@@ -12,9 +12,9 @@
 Javascript/Typescript library for fetching data from APIs with zero dependencies.
 </p>
 
-## [Documentation](https://octofetch.maartenvn.be/)
+## [Documentation](https://octofetch.js.org/)
 
-You can find the full documentation here: [Documentation](https://octofetch.maartenvn.be/)
+You can find the full documentation here: [Documentation](https://octofetch.js.org/)
 
 ## How does it work
 
