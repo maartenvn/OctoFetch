@@ -401,9 +401,7 @@ describe("(core) octofetch tests", () => {
 
             new Error("Promise should not resolve!");
         } catch (e) {
-            expect(e.message).toEqual(
-                "FetchError: request to http://nourl/ failed, reason: getaddrinfo ENOTFOUND nourl"
-            );
+            expect(e.message).toContain("FetchError: request to http://nourl/ failed");
         }
     });
 
@@ -413,9 +411,7 @@ describe("(core) octofetch tests", () => {
 
             new Error("Promise should not resolve!");
         } catch (e) {
-            expect(String(e.exception)).toEqual(
-                "FetchError: request to http://nourl/ failed, reason: getaddrinfo ENOTFOUND nourl"
-            );
+            expect(String(e.exception)).toContain("FetchError: request to http://nourl/ failed");
         }
     });
 
