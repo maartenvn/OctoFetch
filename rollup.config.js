@@ -35,7 +35,7 @@ export default [
             sourceMaps(),
 
             // Minify the bundle
-            terser(),
+            terser({ format: { comments: false } }),
         ],
         output: [
             /**
