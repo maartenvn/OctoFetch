@@ -1,8 +1,8 @@
 <h3> :warning: This library is experimental and subject to change. Will be stable when v0.1.0 is released.</h3>
 
 <p align="center">
-  <a href="https://octofetch.maartenvn.be" target="_blank">
-    <img alt="OctoFetch Logo" width="200" src="./docs/public/img/logo.svg">
+  <a href="https://octofetch.js.org" target="_blank">
+    <img alt="OctoFetch Logo" width="200" src="https://raw.githubusercontent.com/maartenvn/OctoFetch/master/docs/public/img/logo.svg">
   </a>
 </p>
 
