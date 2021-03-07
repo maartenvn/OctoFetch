@@ -21,7 +21,7 @@ jobs:
 
             - name: Build 🔧
               run: |
-                  yarn docs:build
+                  yarn build
 
             - name: Publish 🚀
               run: yarn publish
