@@ -22,6 +22,8 @@
         "docs:build": "vitepress build docs"
     },
     "devDependencies": {
+        "@types/jest": "^26.0.20",
+        "@types/mocha": "^8.2.1",
         "isomorphic-fetch": "^3.0.0",
         "jest": "^26.6.3",
         "nock": "^13.0.10",
