@@ -1,4 +1,4 @@
-name: Release to NPM
+name: Publish Docs
 on:
     push:
         # Only build and publish docs on master.
