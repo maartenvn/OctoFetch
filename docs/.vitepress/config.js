@@ -65,11 +65,11 @@ module.exports = {
                     collapsable: false,
                     children: [
                         {
-                            text: "OctoFetch",
+                            text: "API Reference: OctoFetch",
                             link: "/guide/reference/octofetch",
                         },
                         {
-                            text: "OctoError",
+                            text: "API Reference: OctoError",
                             link: "/guide/reference/octoerror",
                         },
                     ],
