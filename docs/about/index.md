@@ -8,7 +8,7 @@ OctoFetch is made for browser, but can be used in Node.JS using the package [`is
 
 ## Why does it exist
 
-There are other fetch libraries, such as Axios, for fetching data from APIs. Howerver, OctoFetch offers a **much more readable and maintainable approach** that can **shave down on unnecessary boilerplate** and offers a much **more flexible API**.
+There are other fetch libraries, such as Axios, for fetching data from APIs. However, OctoFetch offers a **much more readable and maintainable approach** that can **shave down on unnecessary boilerplate** and offers a much **more flexible API**.
 
 Don't take my word for it, just look at the example below:
 
