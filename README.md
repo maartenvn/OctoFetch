@@ -1,4 +1,4 @@
-<h3> :warning: This library is experimental and subject to change. Will be stable when v0.1.0 is released.</h3>
+<h3> :warning: This library is experimental and subject to change. Will be stable when v0.0.1 is released.</h3>
 
 <p align="center">
   <a href="https://octofetch.js.org" target="_blank">
