@@ -82,3 +82,11 @@ hr {
         color: var(--c-brand-light);
     }
 }
+
+.button {
+    background-color: var(--c-brand);
+    color: white;
+    border-radius: 6px;
+    font-weight: 500;
+    padding: 12px 24px;
+}

@@ -1,5 +1,11 @@
 # Getting started
 
+## Installation
+
+Before getting started you must install OctoFetch using NPM/Yarn or a CDN:
+
+<a class="button" href="/guide/installation">Installation</a>
+
 ## Constructing
 
 To fetch data from an API you have to build an instance of the `OctoFetch`-object. This can easily be done by using the factory function that is the default export:
