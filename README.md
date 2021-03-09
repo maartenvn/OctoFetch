@@ -9,7 +9,7 @@
 <h2 align="center">OctoFetch</h2>
 
 <p align="center">
-Javascript/Typescript library for fetching data from APIs with zero dependencies.
+JavaScript/TypeScript library for fetching data from APIs with zero dependencies.
 </p>
 
 <p align="center">
@@ -66,7 +66,7 @@ yarn add octofetch
 
 ## Simple usage
 
-### Javascript
+### JavaScript
 
 ```javascript
 import octofetch from "octofetch";
@@ -80,7 +80,7 @@ octofetch()
     .catch((error) => console.log(error.code));
 ```
 
-### Typescript
+### TypeScript
 
 ```typescript
 import octofetch from "octofetch";

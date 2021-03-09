@@ -120,7 +120,7 @@ Fetch the data with the constructed request options.
 When calling the `fetch()` function at the end of the chain, a fetch request will execute and **return a promise** with the following properties:
 
 -   **Will resolve**: when a 2XX, 1XX, 3XX status code occurs.
-    -   **Result**: the data, as Javascript Object, as transformed by the correct [transformer](/guide/transformers)
+    -   **Result**: the data, as JavaScript Object, as transformed by the correct [transformer](/guide/transformers)
 -   **Will reject**: when a 4XX-5XX or network error occurs.
     -   **Error**: instance of [OctoError](/guide/reference/octoerror)
 

@@ -22,7 +22,7 @@ module.exports = {
      * Description
      */
     description:
-        "Javascript/Typescript library for fetching data from APIs with zero dependencies.",
+        "JavaScript/TypeScript library for fetching data from APIs with zero dependencies.",
 
     /**
      * Theme configuration

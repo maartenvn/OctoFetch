@@ -1,7 +1,7 @@
 {
     "name": "octofetch",
     "version": "0.0.1-alpha.2",
-    "description": "Javascript/Typescript library for fetching data from APIs with zero dependencies.",
+    "description": "JavaScript/TypeScript library for fetching data from APIs with zero dependencies.",
     "author": "Maarten Van Neyghem",
     "license": "MIT",
     "main": "dist/octofetch.js",
