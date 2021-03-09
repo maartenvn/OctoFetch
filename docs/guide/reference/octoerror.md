@@ -12,7 +12,13 @@ Status code, as provided by the server.
 
 Will be `undefined` when a network error occured or no response from the server was received.
 
-## `response?: string`
+## `data?: any`
+
+Data, received from the server, as transformed by the matching transformer.
+
+Will be `undefined` when a network error occured or no response from the server was received.
+
+## `response?: Response`
 
 Response, as provided by the server.
 
