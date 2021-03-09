@@ -391,7 +391,25 @@ describe("(core) octofetch tests", () => {
 
             new Error("Promise should not resolve!");
         } catch (e) {
-            expect(e.response).toEqual(error);
+            expect(e.response.status).toEqual(401);
+        }
+    });
+
+    test("'fetch' should reject with the correct data (object) (4xx-5xx)", async () => {
+        const path = `/path/on/server`;
+        const error = {
+            field: "username",
+            message: "Please enter a username",
+        };
+
+        nock(MOCK_SERVER_URL).get(path).reply(401, error);
+
+        try {
+            await octofetch().get(`${MOCK_SERVER_URL}${path}`).fetch();
+
+            new Error("Promise should not resolve!");
+        } catch (e) {
+            expect(e.data).toEqual(error);
         }
     });
 

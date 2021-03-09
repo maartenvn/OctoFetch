@@ -310,7 +310,8 @@ export class OctoFetch {
                             reject({
                                 message: res.statusText,
                                 code: res.status,
-                                response: data,
+                                response: res,
+                                data: data,
                             });
                         }
                     }

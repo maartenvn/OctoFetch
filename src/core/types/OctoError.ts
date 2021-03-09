@@ -14,7 +14,13 @@ export interface OctoError {
      * Response, as provided by the server.
      * Will be `undefined` when a network error occured or no response from the server was received.
      */
-    response?: string;
+    response?: Response;
+
+    /**
+     * Data, received from the server, as transformed by the matching transformer.
+     * Will be `undefined` when a network error occured or no response from the server was received.
+     */
+    data?: any;
 
     /**
      * Error object, as received from native `fetch`.
