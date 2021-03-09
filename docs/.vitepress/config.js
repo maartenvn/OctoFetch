@@ -97,5 +97,13 @@ module.exports = {
                 },
             ],
         },
+
+        /**
+         * Algolia
+         */
+        algolia: {
+            apiKey: "6cbf21449c98b7113113974068139854",
+            indexName: "octofetch",
+        },
     },
 };
